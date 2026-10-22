@@ -1,4 +1,4 @@
-// Полный архив 47 фотографий, разделенный строго по пяти фотосессиям
+// Полный архив 42 фотографий, разделенный строго по пяти фотосессиям
 window.GALLERY_DATA = [
   {
     "id": 1,
@@ -92,24 +92,6 @@ window.GALLERY_DATA = [
   },
   {
     "id": 6,
-    "file": "AA9A4032.jpg",
-    "base": "AA9A4032",
-    "large": "images/large/AA9A4032.jpg",
-    "thumb": "images/thumbs/AA9A4032.jpg",
-    "width": 3840,
-    "height": 5760,
-    "aspect": 0.667,
-    "is_vertical": true,
-    "title": "Кадр № 06",
-    "subtitle": "Свеча на фоне цветного освещения",
-    "alt": "Полина — Свеча на фоне цветного освещения",
-    "category": "candle",
-    "session_name": "Съёмка со свечой",
-    "session_num": "II",
-    "tag": "Съёмка со свечой"
-  },
-  {
-    "id": 7,
     "file": "AA9A4032_1.jpg",
     "base": "AA9A4032_1",
     "large": "images/large/AA9A4032_1.jpg",
@@ -118,7 +100,7 @@ window.GALLERY_DATA = [
     "height": 5760,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 07",
+    "title": "Кадр № 06",
     "subtitle": "Взгляд на огонёк свечи",
     "alt": "Полина — Взгляд на огонёк свечи",
     "category": "candle",
@@ -127,25 +109,7 @@ window.GALLERY_DATA = [
     "tag": "Съёмка со свечой"
   },
   {
-    "id": 8,
-    "file": "AA9A4037.jpg",
-    "base": "AA9A4037",
-    "large": "images/large/AA9A4037.jpg",
-    "thumb": "images/thumbs/AA9A4037.jpg",
-    "width": 3840,
-    "height": 5760,
-    "aspect": 0.667,
-    "is_vertical": true,
-    "title": "Кадр № 08",
-    "subtitle": "Тёплый отблеск пламени",
-    "alt": "Полина — Тёплый отблеск пламени",
-    "category": "candle",
-    "session_name": "Съёмка со свечой",
-    "session_num": "II",
-    "tag": "Съёмка со свечой"
-  },
-  {
-    "id": 9,
+    "id": 7,
     "file": "AA9A4037_1.jpg",
     "base": "AA9A4037_1",
     "large": "images/large/AA9A4037_1.jpg",
@@ -154,7 +118,7 @@ window.GALLERY_DATA = [
     "height": 5760,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 09",
+    "title": "Кадр № 07",
     "subtitle": "Мягкий свет свечи на лице",
     "alt": "Полина — Мягкий свет свечи на лице",
     "category": "candle",
@@ -163,25 +127,7 @@ window.GALLERY_DATA = [
     "tag": "Съёмка со свечой"
   },
   {
-    "id": 10,
-    "file": "AA9A4061.jpg",
-    "base": "AA9A4061",
-    "large": "images/large/AA9A4061.jpg",
-    "thumb": "images/thumbs/AA9A4061.jpg",
-    "width": 3840,
-    "height": 5760,
-    "aspect": 0.667,
-    "is_vertical": true,
-    "title": "Кадр № 10",
-    "subtitle": "Полина со свечой на синем фоне",
-    "alt": "Полина — Полина со свечой на синем фоне",
-    "category": "candle",
-    "session_name": "Съёмка со свечой",
-    "session_num": "II",
-    "tag": "Съёмка со свечой"
-  },
-  {
-    "id": 11,
+    "id": 8,
     "file": "AA9A4061_1.jpg",
     "base": "AA9A4061_1",
     "large": "images/large/AA9A4061_1.jpg",
@@ -190,7 +136,7 @@ window.GALLERY_DATA = [
     "height": 5760,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 11",
+    "title": "Кадр № 08",
     "subtitle": "Огонёк и цветной свет",
     "alt": "Полина — Огонёк и цветной свет",
     "category": "candle",
@@ -199,25 +145,7 @@ window.GALLERY_DATA = [
     "tag": "Съёмка со свечой"
   },
   {
-    "id": 12,
-    "file": "AA9A4065.jpg",
-    "base": "AA9A4065",
-    "large": "images/large/AA9A4065.jpg",
-    "thumb": "images/thumbs/AA9A4065.jpg",
-    "width": 3840,
-    "height": 5760,
-    "aspect": 0.667,
-    "is_vertical": true,
-    "title": "Кадр № 12",
-    "subtitle": "Силуэтный портрет в полумраке",
-    "alt": "Полина — Силуэтный портрет в полумраке",
-    "category": "candle",
-    "session_name": "Съёмка со свечой",
-    "session_num": "II",
-    "tag": "Съёмка со свечой"
-  },
-  {
-    "id": 13,
+    "id": 9,
     "file": "AA9A4065_1.jpg",
     "base": "AA9A4065_1",
     "large": "images/large/AA9A4065_1.jpg",
@@ -226,7 +154,7 @@ window.GALLERY_DATA = [
     "height": 5760,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 13",
+    "title": "Кадр № 09",
     "subtitle": "Живой огонёк в темноте",
     "alt": "Полина — Живой огонёк в темноте",
     "category": "candle",
@@ -235,25 +163,7 @@ window.GALLERY_DATA = [
     "tag": "Съёмка со свечой"
   },
   {
-    "id": 14,
-    "file": "AA9A4073.jpg",
-    "base": "AA9A4073",
-    "large": "images/large/AA9A4073.jpg",
-    "thumb": "images/thumbs/AA9A4073.jpg",
-    "width": 3840,
-    "height": 5760,
-    "aspect": 0.667,
-    "is_vertical": true,
-    "title": "Кадр № 14",
-    "subtitle": "Минималистичный ночной кадр",
-    "alt": "Полина — Минималистичный ночной кадр",
-    "category": "candle",
-    "session_name": "Съёмка со свечой",
-    "session_num": "II",
-    "tag": "Съёмка со свечой"
-  },
-  {
-    "id": 15,
+    "id": 10,
     "file": "AA9A4073_1.jpg",
     "base": "AA9A4073_1",
     "large": "images/large/AA9A4073_1.jpg",
@@ -262,7 +172,7 @@ window.GALLERY_DATA = [
     "height": 5760,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 15",
+    "title": "Кадр № 10",
     "subtitle": "Профиль при свете свечи",
     "alt": "Полина — Профиль при свете свечи",
     "category": "candle",
@@ -271,7 +181,7 @@ window.GALLERY_DATA = [
     "tag": "Съёмка со свечой"
   },
   {
-    "id": 16,
+    "id": 11,
     "file": "AA9A4114.jpg",
     "base": "AA9A4114",
     "large": "images/large/AA9A4114.jpg",
@@ -280,7 +190,7 @@ window.GALLERY_DATA = [
     "height": 5760,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 16",
+    "title": "Кадр № 11",
     "subtitle": "На лестничной площадке",
     "alt": "Полина — На лестничной площадке",
     "category": "stairwell",
@@ -289,7 +199,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 17,
+    "id": 12,
     "file": "AA9A4120.jpg",
     "base": "AA9A4120",
     "large": "images/large/AA9A4120.jpg",
@@ -298,7 +208,7 @@ window.GALLERY_DATA = [
     "height": 3840,
     "aspect": 1.5,
     "is_vertical": false,
-    "title": "Кадр № 17",
+    "title": "Кадр № 12",
     "subtitle": "На ступенях в моём жилете",
     "alt": "Полина — На ступенях в моём жилете",
     "category": "stairwell",
@@ -307,7 +217,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 18,
+    "id": 13,
     "file": "AA9A4121.jpg",
     "base": "AA9A4121",
     "large": "images/large/AA9A4121.jpg",
@@ -316,7 +226,7 @@ window.GALLERY_DATA = [
     "height": 3840,
     "aspect": 1.5,
     "is_vertical": false,
-    "title": "Кадр № 18",
+    "title": "Кадр № 13",
     "subtitle": "Холодный подъезд около двух ночи",
     "alt": "Полина — Холодный подъезд около двух ночи",
     "category": "stairwell",
@@ -325,7 +235,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 19,
+    "id": 14,
     "file": "AA9A4122.jpg",
     "base": "AA9A4122",
     "large": "images/large/AA9A4122.jpg",
@@ -334,7 +244,7 @@ window.GALLERY_DATA = [
     "height": 3840,
     "aspect": 1.5,
     "is_vertical": false,
-    "title": "Кадр № 19",
+    "title": "Кадр № 14",
     "subtitle": "Линии перил и ступенек",
     "alt": "Полина — Линии перил и ступенек",
     "category": "stairwell",
@@ -343,7 +253,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 20,
+    "id": 15,
     "file": "AA9A4137.jpg",
     "base": "AA9A4137",
     "large": "images/large/AA9A4137.jpg",
@@ -352,7 +262,7 @@ window.GALLERY_DATA = [
     "height": 3840,
     "aspect": 1.5,
     "is_vertical": false,
-    "title": "Кадр № 20",
+    "title": "Кадр № 15",
     "subtitle": "У фактурной стены подъезда",
     "alt": "Полина — У фактурной стены подъезда",
     "category": "stairwell",
@@ -361,7 +271,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 21,
+    "id": 16,
     "file": "AA9A4139.jpg",
     "base": "AA9A4139",
     "large": "images/large/AA9A4139.jpg",
@@ -370,7 +280,7 @@ window.GALLERY_DATA = [
     "height": 3840,
     "aspect": 1.5,
     "is_vertical": false,
-    "title": "Кадр № 21",
+    "title": "Кадр № 16",
     "subtitle": "Контровой свет казённой лампы",
     "alt": "Полина — Контровой свет казённой лампы",
     "category": "stairwell",
@@ -379,7 +289,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 22,
+    "id": 17,
     "file": "AA9A4140.jpg",
     "base": "AA9A4140",
     "large": "images/large/AA9A4140.jpg",
@@ -388,7 +298,7 @@ window.GALLERY_DATA = [
     "height": 3840,
     "aspect": 1.5,
     "is_vertical": false,
-    "title": "Кадр № 22",
+    "title": "Кадр № 17",
     "subtitle": "Два часа ночи на лестнице",
     "alt": "Полина — Два часа ночи на лестнице",
     "category": "stairwell",
@@ -397,7 +307,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 23,
+    "id": 18,
     "file": "AA9A4147.jpg",
     "base": "AA9A4147",
     "large": "images/large/AA9A4147.jpg",
@@ -406,7 +316,7 @@ window.GALLERY_DATA = [
     "height": 3840,
     "aspect": 1.5,
     "is_vertical": false,
-    "title": "Кадр № 23",
+    "title": "Кадр № 18",
     "subtitle": "Ночной портрет на лестничной клетке",
     "alt": "Полина — Ночной портрет на лестничной клетке",
     "category": "stairwell",
@@ -415,7 +325,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 24,
+    "id": 19,
     "file": "AA9A4148.jpg",
     "base": "AA9A4148",
     "large": "images/large/AA9A4148.jpg",
@@ -424,7 +334,7 @@ window.GALLERY_DATA = [
     "height": 3840,
     "aspect": 1.5,
     "is_vertical": false,
-    "title": "Кадр № 24",
+    "title": "Кадр № 19",
     "subtitle": "Графика ступеней и тишина",
     "alt": "Полина — Графика ступеней и тишина",
     "category": "stairwell",
@@ -433,7 +343,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 25,
+    "id": 20,
     "file": "AA9A4158.jpg",
     "base": "AA9A4158",
     "large": "images/large/AA9A4158.jpg",
@@ -442,7 +352,7 @@ window.GALLERY_DATA = [
     "height": 5760,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 25",
+    "title": "Кадр № 20",
     "subtitle": "Тот самый большой жилет",
     "alt": "Полина — Тот самый большой жилет",
     "category": "stairwell",
@@ -451,7 +361,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 26,
+    "id": 21,
     "file": "AA9A4159.jpg",
     "base": "AA9A4159",
     "large": "images/large/AA9A4159.jpg",
@@ -460,7 +370,7 @@ window.GALLERY_DATA = [
     "height": 3840,
     "aspect": 1.5,
     "is_vertical": false,
-    "title": "Кадр № 26",
+    "title": "Кадр № 21",
     "subtitle": "Горизонтальный кадр на лестничном марше",
     "alt": "Полина — Горизонтальный кадр на лестничном марше",
     "category": "stairwell",
@@ -469,7 +379,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 27,
+    "id": 22,
     "file": "AA9A4162.jpg",
     "base": "AA9A4162",
     "large": "images/large/AA9A4162.jpg",
@@ -478,7 +388,7 @@ window.GALLERY_DATA = [
     "height": 3840,
     "aspect": 1.5,
     "is_vertical": false,
-    "title": "Кадр № 27",
+    "title": "Кадр № 22",
     "subtitle": "Спокойный момент на площадке",
     "alt": "Полина — Спокойный момент на площадке",
     "category": "stairwell",
@@ -487,7 +397,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 28,
+    "id": 23,
     "file": "AA9A4179.jpg",
     "base": "AA9A4179",
     "large": "images/large/AA9A4179.jpg",
@@ -496,7 +406,7 @@ window.GALLERY_DATA = [
     "height": 3840,
     "aspect": 1.5,
     "is_vertical": false,
-    "title": "Кадр № 28",
+    "title": "Кадр № 23",
     "subtitle": "Ночной свет и фактура стен",
     "alt": "Полина — Ночной свет и фактура стен",
     "category": "stairwell",
@@ -505,7 +415,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 29,
+    "id": 24,
     "file": "AA9A4181.jpg",
     "base": "AA9A4181",
     "large": "images/large/AA9A4181.jpg",
@@ -514,7 +424,7 @@ window.GALLERY_DATA = [
     "height": 3840,
     "aspect": 1.5,
     "is_vertical": false,
-    "title": "Кадр № 29",
+    "title": "Кадр № 24",
     "subtitle": "Тени на лестничной клетке",
     "alt": "Полина — Тени на лестничной клетке",
     "category": "stairwell",
@@ -523,7 +433,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 30,
+    "id": 25,
     "file": "AA9A4199.jpg",
     "base": "AA9A4199",
     "large": "images/large/AA9A4199.jpg",
@@ -532,7 +442,7 @@ window.GALLERY_DATA = [
     "height": 3840,
     "aspect": 1.5,
     "is_vertical": false,
-    "title": "Кадр № 30",
+    "title": "Кадр № 25",
     "subtitle": "Перила, ступени и ракурс",
     "alt": "Полина — Перила, ступени и ракурс",
     "category": "stairwell",
@@ -541,7 +451,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 31,
+    "id": 26,
     "file": "AA9A4217.jpg",
     "base": "AA9A4217",
     "large": "images/large/AA9A4217.jpg",
@@ -550,7 +460,7 @@ window.GALLERY_DATA = [
     "height": 5760,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 31",
+    "title": "Кадр № 26",
     "subtitle": "Портрет на лестнице",
     "alt": "Полина — Портрет на лестнице",
     "category": "stairwell",
@@ -559,7 +469,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 32,
+    "id": 27,
     "file": "AA9A4231.jpg",
     "base": "AA9A4231",
     "large": "images/large/AA9A4231.jpg",
@@ -568,7 +478,7 @@ window.GALLERY_DATA = [
     "height": 5760,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 32",
+    "title": "Кадр № 27",
     "subtitle": "Свет лампы на стене",
     "alt": "Полина — Свет лампы на стене",
     "category": "stairwell",
@@ -577,7 +487,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 33,
+    "id": 28,
     "file": "AA9A4236.jpg",
     "base": "AA9A4236",
     "large": "images/large/AA9A4236.jpg",
@@ -586,7 +496,7 @@ window.GALLERY_DATA = [
     "height": 5760,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 33",
+    "title": "Кадр № 28",
     "subtitle": "Взгляд на ночной лестнице",
     "alt": "Полина — Взгляд на ночной лестнице",
     "category": "stairwell",
@@ -595,7 +505,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 34,
+    "id": 29,
     "file": "AA9A4245.jpg",
     "base": "AA9A4245",
     "large": "images/large/AA9A4245.jpg",
@@ -604,7 +514,7 @@ window.GALLERY_DATA = [
     "height": 5760,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 34",
+    "title": "Кадр № 29",
     "subtitle": "У перил лестничного марша",
     "alt": "Полина — У перил лестничного марша",
     "category": "stairwell",
@@ -613,7 +523,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 35,
+    "id": 30,
     "file": "AA9A4249.jpg",
     "base": "AA9A4249",
     "large": "images/large/AA9A4249.jpg",
@@ -622,7 +532,7 @@ window.GALLERY_DATA = [
     "height": 5760,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 35",
+    "title": "Кадр № 30",
     "subtitle": "Силуэт в лестничном пролёте",
     "alt": "Полина — Силуэт в лестничном пролёте",
     "category": "stairwell",
@@ -631,7 +541,7 @@ window.GALLERY_DATA = [
     "tag": "Ночь в подъезде"
   },
   {
-    "id": 36,
+    "id": 31,
     "file": "AA9A4281.jpg",
     "base": "AA9A4281",
     "large": "images/large/AA9A4281.jpg",
@@ -640,7 +550,7 @@ window.GALLERY_DATA = [
     "height": 4188,
     "aspect": 0.8,
     "is_vertical": true,
-    "title": "Кадр № 36",
+    "title": "Кадр № 31",
     "subtitle": "Контрастный рисунок света",
     "alt": "Полина — Контрастный рисунок света",
     "category": "beams",
@@ -649,7 +559,7 @@ window.GALLERY_DATA = [
     "tag": "Пучки света"
   },
   {
-    "id": 37,
+    "id": 32,
     "file": "AA9A4307.jpg",
     "base": "AA9A4307",
     "large": "images/large/AA9A4307.jpg",
@@ -658,7 +568,7 @@ window.GALLERY_DATA = [
     "height": 4437,
     "aspect": 0.8,
     "is_vertical": true,
-    "title": "Кадр № 37",
+    "title": "Кадр № 32",
     "subtitle": "Тень от решётки вентилятора",
     "alt": "Полина — Тень от решётки вентилятора",
     "category": "beams",
@@ -667,7 +577,7 @@ window.GALLERY_DATA = [
     "tag": "Пучки света"
   },
   {
-    "id": 38,
+    "id": 33,
     "file": "AA9A4316.jpg",
     "base": "AA9A4316",
     "large": "images/large/AA9A4316.jpg",
@@ -676,7 +586,7 @@ window.GALLERY_DATA = [
     "height": 4800,
     "aspect": 0.8,
     "is_vertical": true,
-    "title": "Кадр № 38",
+    "title": "Кадр № 33",
     "subtitle": "Графичный теневой узор на лице",
     "alt": "Полина — Графичный теневой узор на лице",
     "category": "beams",
@@ -685,7 +595,7 @@ window.GALLERY_DATA = [
     "tag": "Пучки света"
   },
   {
-    "id": 39,
+    "id": 34,
     "file": "AA9A4319.jpg",
     "base": "AA9A4319",
     "large": "images/large/AA9A4319.jpg",
@@ -694,7 +604,7 @@ window.GALLERY_DATA = [
     "height": 4665,
     "aspect": 0.8,
     "is_vertical": true,
-    "title": "Кадр № 39",
+    "title": "Кадр № 34",
     "subtitle": "Игра теней и геометрия",
     "alt": "Полина — Игра теней и геометрия",
     "category": "beams",
@@ -703,7 +613,7 @@ window.GALLERY_DATA = [
     "tag": "Пучки света"
   },
   {
-    "id": 40,
+    "id": 35,
     "file": "AA9A4322.jpg",
     "base": "AA9A4322",
     "large": "images/large/AA9A4322.jpg",
@@ -712,7 +622,7 @@ window.GALLERY_DATA = [
     "height": 4800,
     "aspect": 0.8,
     "is_vertical": true,
-    "title": "Кадр № 40",
+    "title": "Кадр № 35",
     "subtitle": "Пучок света и полутона",
     "alt": "Полина — Пучок света и полутона",
     "category": "beams",
@@ -721,7 +631,7 @@ window.GALLERY_DATA = [
     "tag": "Пучки света"
   },
   {
-    "id": 41,
+    "id": 36,
     "file": "AA9A4656.jpg",
     "base": "AA9A4656",
     "large": "images/large/AA9A4656.jpg",
@@ -730,7 +640,7 @@ window.GALLERY_DATA = [
     "height": 4876,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 41",
+    "title": "Кадр № 36",
     "subtitle": "Красный плед между дверями в коридоре",
     "alt": "Полина — Красный плед между дверями в коридоре",
     "category": "red",
@@ -739,7 +649,7 @@ window.GALLERY_DATA = [
     "tag": "Красная серия"
   },
   {
-    "id": 42,
+    "id": 37,
     "file": "AA9A4675.jpg",
     "base": "AA9A4675",
     "large": "images/large/AA9A4675.jpg",
@@ -748,7 +658,7 @@ window.GALLERY_DATA = [
     "height": 5099,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 42",
+    "title": "Кадр № 37",
     "subtitle": "Эксперимент с красным светом в кладовке",
     "alt": "Полина — Эксперимент с красным светом в кладовке",
     "category": "red",
@@ -757,7 +667,7 @@ window.GALLERY_DATA = [
     "tag": "Красная серия"
   },
   {
-    "id": 43,
+    "id": 38,
     "file": "AA9A4708.jpg",
     "base": "AA9A4708",
     "large": "images/large/AA9A4708.jpg",
@@ -766,7 +676,7 @@ window.GALLERY_DATA = [
     "height": 5313,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 43",
+    "title": "Кадр № 38",
     "subtitle": "Закатная лампа и RGB-лампочка в кладовке",
     "alt": "Полина — Закатная лампа и RGB-лампочка в кладовке",
     "category": "red",
@@ -775,7 +685,7 @@ window.GALLERY_DATA = [
     "tag": "Красная серия"
   },
   {
-    "id": 44,
+    "id": 39,
     "file": "AA9A4793.jpg",
     "base": "AA9A4793",
     "large": "images/large/AA9A4793.jpg",
@@ -784,7 +694,7 @@ window.GALLERY_DATA = [
     "height": 4228,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 44",
+    "title": "Кадр № 39",
     "subtitle": "Глубокий красный свет",
     "alt": "Полина — Глубокий красный свет",
     "category": "red",
@@ -793,7 +703,7 @@ window.GALLERY_DATA = [
     "tag": "Красная серия"
   },
   {
-    "id": 45,
+    "id": 40,
     "file": "AA9A4841.jpg",
     "base": "AA9A4841",
     "large": "images/large/AA9A4841.jpg",
@@ -802,7 +712,7 @@ window.GALLERY_DATA = [
     "height": 5407,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 45",
+    "title": "Кадр № 40",
     "subtitle": "Красный плед как фон",
     "alt": "Полина — Красный плед как фон",
     "category": "red",
@@ -811,7 +721,7 @@ window.GALLERY_DATA = [
     "tag": "Красная серия"
   },
   {
-    "id": 46,
+    "id": 41,
     "file": "AA9A4859.jpg",
     "base": "AA9A4859",
     "large": "images/large/AA9A4859.jpg",
@@ -820,7 +730,7 @@ window.GALLERY_DATA = [
     "height": 5760,
     "aspect": 0.667,
     "is_vertical": true,
-    "title": "Кадр № 46",
+    "title": "Кадр № 41",
     "subtitle": "Выразительный портрет на фоне пледа",
     "alt": "Полина — Выразительный портрет на фоне пледа",
     "category": "red",
@@ -829,7 +739,7 @@ window.GALLERY_DATA = [
     "tag": "Красная серия"
   },
   {
-    "id": 47,
+    "id": 42,
     "file": "AA9A4911.jpg",
     "base": "AA9A4911",
     "large": "images/large/AA9A4911.jpg",
@@ -838,7 +748,7 @@ window.GALLERY_DATA = [
     "height": 4674,
     "aspect": 0.8,
     "is_vertical": true,
-    "title": "Кадр № 47",
+    "title": "Кадр № 42",
     "subtitle": "Финал красной фотосессии",
     "alt": "Полина — Финал красной фотосессии",
     "category": "red",

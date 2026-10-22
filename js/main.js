@@ -102,7 +102,7 @@ function initGalleryAndLightbox() {
   // The 5 strict photo sessions in order
   const SESSIONS = [
     { key: 'glasses', num: 'Серия I', title: 'Бокалы и свет', count: 5 },
-    { key: 'candle', num: 'Серия II', title: 'Съёмка со свечой', count: 10 },
+    { key: 'candle', num: 'Серия II', title: 'Съёмка со свечой', count: 5 },
     { key: 'stairwell', num: 'Серия III', title: 'Ночь в подъезде', count: 20 },
     { key: 'beams', num: 'Серия IV', title: 'Игра с пучками света', count: 5 },
     { key: 'red', num: 'Серия V', title: 'Красная серия', count: 7 }
