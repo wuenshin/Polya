@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Полина — Моя главная модель</title>
+  <meta name="description" content="История одного фотографического марафона, совместных съёмок, экспериментов со светом и любви. Для Полины.">
+  
+  <!-- Favicon placeholder with SVG -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>П</text></svg>">
+
+  <!-- Editorial Typography Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Доступность: быстрая ссылка для клавиатурной навигации -->
+  <a href="#main-content" class="skip-link">Перейти к основному содержанию</a>
+
+  <!-- ======================================================================
+       HEADER / ВЕРХНЕЕ МЕНЮ
+       ====================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#hero" class="brand-title" aria-label="На главную: Полина">
+        <span>Полина</span>
+        <span class="brand-dot" aria-hidden="true"></span>
+      </a>
+
+      <!-- Кнопка мобильного меню -->
+      <button class="mobile-nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню навигации">
+        <span class="hamburger-line" aria-hidden="true"></span>
+      </button>
+
+      <!-- Навигационные ссылки -->
+      <nav id="main-nav" aria-label="Основная навигация">
+        <ul class="nav-links">
+          <li><a href="#craft" class="nav-link">О свете</a></li>
+          <li><a href="#marathon" class="nav-link">Марафон</a></li>
+          <li><a href="#evenings" class="nav-link">Вечера</a></li>
+          <li><a href="#stories" class="nav-link">Бэкстейдж</a></li>
+          <li><a href="#gallery" class="nav-link">Архив</a></li>
+          <li><a href="#letter" class="nav-link">Письмо</a></li>
+          <li><a href="#finale" class="nav-link">Контракт</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       ОСНОВНОЙ КОНТЕНТ
+       ====================================================================== -->
+  <main id="main-content">
+
+    <!-- ------------------------------------------------------------------
+         1. ПЕРВЫЙ ЭКРАН (HERO)
+         ------------------------------------------------------------------ -->
+    <section id="hero" class="section-hero" aria-labelledby="hero-title">
+      <div class="container">
+        
+        <div class="hero-meta reveal">
+          <span>Личный фотодневник</span>
+          <span>Курс по искусственному свету</span>
+          <span>Главная модель: Полина</span>
+        </div>
+
+        <div class="hero-grid">
+          <!-- Визуальный акцент: главный портрет Полины -->
+          <div class="hero-visual reveal">
+            <figure class="hero-image-frame">
+              <img 
+                src="./images/large/AA9A3963.jpg" 
+                alt="Портрет Полины при тёплом рисующем свете" 
+                class="hero-image"
+                width="1200" 
+                height="1800"
+                fetchpriority="high"
+              >
+              <div class="hero-tag" aria-hidden="true">Plate N° 01 — СВЕТ: РИСУЮЩИЙ И ЛЮБИМЫЙ</div>
+            </figure>
+          </div>
+
+          <!-- Текстовый блок первого экрана -->
+          <div class="hero-content reveal reveal-delay-1">
+            <div class="hero-pretitle">Хроника совместных съёмок и экспериментов</div>
+            <h1 id="hero-title" class="hero-title">Моя главная модель.</h1>
+            <p class="hero-quote">«За каждым любимым кадром — ты. И иногда плед между дверными проёмами, закатная лампа и очень странные идеи».</p>
+            <p class="hero-description">
+              Я занимаюсь фотографией уже не первый день, знаю базу и имею опыт съёмок. Сейчас я прохожу курс по искусственному свету — чтобы расти дальше, разбираться в сложных световых решениях и воплощать более интересные задумки. А Полина — моя любимая девушка и главная участница наших совместных фотосессий.
+            </p>
+            <a href="#craft" class="hero-scroll-btn" aria-label="Перейти к истории съёмок">
+              <span>Смотреть историю марафона</span>
+              <svg class="hero-scroll-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 4v16m0 0l-6-6m6 6l6-6"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------
+         2. РАЗДЕЛ: О СВЕТЕ И ТВОРЧЕСКОМ ПУТИ (CRAFT)
+         ------------------------------------------------------------------ -->
+    <section id="craft" class="section-story" aria-labelledby="craft-heading">
+      <div class="container">
+
+        <div class="editorial-spread">
+          <div class="spread-text reveal">
+            <span class="editorial-label">Развитие и практика</span>
+            <h2 id="craft-heading" class="section-heading">Свет и творческий путь</h2>
+            <p>
+              В фотографии мне всегда было интересно, как свет меняет атмосферу кадра. Курс даёт возможность выйти за рамки привычного и учиться получать выразительный результат даже дома, экспериментируя с источниками и пространством.
+            </p>
+            <p>
+              Но любые световые схемы оживают только тогда, когда в кадре появляется Полина. Экспериментировать со светом интересно, но в сотни раз интереснее делать это вместе — превращая каждую задумку в наше общее приключение.
+            </p>
+          </div>
+
+          <div class="spread-visual reveal reveal-delay-1">
+            <figure class="spread-frame">
+              <img 
+                src="./images/large/AA9A4012.jpg" 
+                alt="Полина при акцентном искусственном свете" 
+                loading="lazy"
+                width="1000" 
+                height="1500"
+              >
+            </figure>
+            <div class="plate-caption">
+              <span>Plate N° 04</span>
+              <span>Поиск световых решений</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------
+         3. РАЗДЕЛ: ДЕВЯТЬ УТРА, НОВАЯ ИДЕЯ (MARATHON)
+         ------------------------------------------------------------------ -->
+    <section id="marathon" class="section-story" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);" aria-labelledby="marathon-heading">
+      <div class="container">
+
+        <header class="gallery-header reveal" style="margin-bottom: 3rem;">
+          <span class="editorial-label">График съёмок</span>
+          <h2 id="marathon-heading" class="section-heading">09:00, новая идея и 27 часов</h2>
+          <p class="section-lead">
+            Примерно в 09:00 утра от автора курса приходит новое задание. Мы с Полиной, разумеется, «с огромным нетерпением» ждём этого момента — ведь именно в 09:00 мы узнаём, чем нам предстоит заниматься сегодня вечером.
+          </p>
+          <p class="section-lead" style="margin-top: 1rem;">
+            На выполнение и сдачу даётся 27 часов. Звучит вполне комфортно, пока не понимаешь: съёмку нужно провести уже этим вечером, успеть отобрать кадры, обработать их и отправить в срок.
+          </p>
+        </header>
+
+        <!-- Хроника фотографического марафона -->
+        <div class="chronicle-grid reveal">
+          <div class="chronicle-card">
+            <div class="chronicle-stat">09:00</div>
+            <div class="chronicle-title">Утреннее задание</div>
+            <p class="chronicle-desc">Время, когда приходит очередная задумка и начинается поиск решений.</p>
+          </div>
+
+          <div class="chronicle-card">
+            <div class="chronicle-stat">27 ч.</div>
+            <div class="chronicle-title">Срок на сдачу</div>
+            <p class="chronicle-desc">Время на подготовку, вечернюю съёмку, отбор и обработку серии.</p>
+          </div>
+
+          <div class="chronicle-card">
+            <div class="chronicle-stat">4 / 2</div>
+            <div class="chronicle-title">Ритм марафона</div>
+            <p class="chronicle-desc">Четыре дня съёмок подряд, затем два дня отдыха, которым Полина особенно рада.</p>
+          </div>
+
+          <div class="chronicle-card">
+            <div class="chronicle-stat">8 / 4</div>
+            <div class="chronicle-title">Текущий статус</div>
+            <p class="chronicle-desc">Восемь фотосессий уже позади. Впереди ещё четыре, и в двух из них Полина участвовать не будет.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------
+         4. РАЗДЕЛ: ЧТО ПРОИСХОДИТ С НАШИМИ ВЕЧЕРАМИ (EVENINGS)
+         ------------------------------------------------------------------ -->
+    <section id="evenings" class="section-story" aria-labelledby="evenings-heading">
+      <div class="container">
+
+        <!-- Вводная карточка-цитата с добрым контрастом -->
+        <div class="story-quote-card reveal">
+          <blockquote class="story-pull-quote">
+            «План на вечер: попить чай, поваляться в обнимку и никуда не торопиться.<br>
+            План после утреннего задания: закрепить плед между дверными проёмами, выставить свет и проверить очередную идею».
+          </blockquote>
+          <div class="story-quote-author">— Реальность наших будней</div>
+        </div>
+
+        <div class="editorial-spread">
+          <div class="spread-text reveal">
+            <span class="editorial-label">Вечерние планы</span>
+            <h2 id="evenings-heading" class="section-heading">Вместо тихого чая — съёмочная площадка</h2>
+            <p>
+              Чтобы снимать с искусственным освещением, нам нужны вечерние часы. В итоге вместо привычных уютных вечеров вдвоём — когда можно просто спокойно лежать в обнимку, пить чай и никуда не торопиться, — мы порой занимаемся подготовкой очередной фотосессии.
+            </p>
+            <p>
+              Полина может устать после рабочего дня, поворчать или покапризничать, и я прекрасно её понимаю: она вовсе не обязана бесконечно участвовать в моих учебных заданиях. Отдых порой важнее любого кадра. Но то, что она всё равно соглашается помочь и включается в мои задумки, я ценю больше всего.
+            </p>
+          </div>
+
+          <div class="spread-visual reveal reveal-delay-1">
+            <figure class="spread-frame">
+              <img 
+                src="./images/large/AA9A4014.jpg" 
+                alt="Полина при акцентном свете в домашней обстановке" 
+                loading="lazy"
+                width="1000" 
+                height="1500"
+              >
+            </figure>
+            <div class="plate-caption">
+              <span>Plate N° 05</span>
+              <span>Вечерний кадр</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------
+         5. РАЗДЕЛ: БЭКСТЕЙДЖ — РЕАЛЬНЫЕ ИСТОРИИ СЪЁМОК (STORIES)
+         ------------------------------------------------------------------ -->
+    <section id="stories" class="section-essence" aria-labelledby="stories-heading">
+      <div class="container">
+
+        <header class="gallery-header reveal" style="margin-bottom: 5rem;">
+          <span class="editorial-label">Находчивость и факты</span>
+          <h2 id="stories-heading" class="section-heading">За кадром: как мы это снимали</h2>
+          <p class="section-lead">
+            Реальные съёмки, в которых за красивой картинкой прячется масса находчивости, экспериментов и домашних решений.
+          </p>
+        </header>
+
+        <!-- ИСТОРИЯ 1: Красная фотосессия: коридор и кладовка (ЕДИНАЯ ИСТОРИЯ) -->
+        <div class="editorial-spread">
+          <div class="spread-text reveal">
+            <span class="editorial-label">История I • Коридор и кладовка</span>
+            <h3 class="section-heading" style="font-size: clamp(1.8rem, 3.2vw, 2.6rem);">Красная серия: от коридора до кладовки</h3>
+            <p>
+              Для красной фотосессии нам понадобился однотонный глубокий фон. Вместо студийного задника мы взяли обычный домашний плед, закрепили его в коридоре между двумя дверными проёмами и сделали чистый, цельный кадр.
+            </p>
+            <p>
+              А затем эксперимент продолжился в кладовке. Мы поставили закатную лампу и дополнительно вкрутили умную RGB-лампочку в надежде добавить ещё больше красного цвета. Особенного эффекта умная лампочка не дала, но сам опыт съёмки в тесном пространстве кладовки мы точно запомним надолго.
+            </p>
+          </div>
+
+          <div class="spread-visual reveal reveal-delay-1" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <figure class="spread-frame">
+              <img 
+                src="./images/large/AA9A4656.jpg" 
+                alt="Полина на фоне красного пледа в коридоре" 
+                loading="lazy"
+                width="800" 
+                height="1200"
+              >
+              <div class="plate-caption" style="font-size: 0.7rem;">
+                <span>Коридор: плед</span>
+              </div>
+            </figure>
+            <figure class="spread-frame">
+              <img 
+                src="./images/large/AA9A4708.jpg" 
+                alt="Эксперимент с красным светом в кладовке" 
+                loading="lazy"
+                width="800" 
+                height="1200"
+              >
+              <div class="plate-caption" style="font-size: 0.7rem;">
+                <span>Кладовка: свет</span>
+              </div>
+            </figure>
+          </div>
+        </div>
+
+        <div class="divider-subtle"></div>
+
+        <!-- ИСТОРИЯ 2: Съёмка с бокалами и перестановка стола -->
+        <div class="editorial-spread reverse">
+          <div class="spread-text reveal">
+            <span class="editorial-label">История II • Две лампы и стол</span>
+            <h3 class="section-heading" style="font-size: clamp(1.8rem, 3.2vw, 2.6rem);">Бокалы, стол и свет</h3>
+            <p>
+              Ради съёмки с бокалами потребовалось переставить стол, чтобы подготовить нужную композицию. Стол находился на кухне, и его переносила Полина: он не был особо тяжёлым, но мне нельзя двигать тяжести, поэтому обязанности разделились.
+            </p>
+            <p>
+              Полина переставила стол, а я продумывал композицию и выставлял свет — в этой фотосессии работали закатная лампа и жёлтая лампочка на вспышке.
+            </p>
+          </div>
+
+          <div class="spread-visual reveal reveal-delay-1">
+            <figure class="spread-frame">
+              <img 
+                src="./images/large/AA9A3992.jpg" 
+                alt="Съёмка с бокалами: Полина за столом, закатная лампа и жёлтая лампочка на вспышке" 
+                loading="lazy"
+                width="1000" 
+                height="1500"
+              >
+            </figure>
+            <div class="plate-caption">
+              <span>Plate N° 03</span>
+              <span>Бокалы: закатная лампа и лампочка на вспышке</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="divider-subtle"></div>
+
+        <!-- ИСТОРИЯ 3: Ночной подъезд около двух часов ночи и большой жилет -->
+        <div class="editorial-spread">
+          <div class="spread-text reveal">
+            <span class="editorial-label">История III • Холод и жилет</span>
+            <h3 class="section-heading" style="font-size: clamp(1.8rem, 3.2vw, 2.6rem);">Подъезд в два часа ночи</h3>
+            <p>
+              Около двух часов ночи мы оказались в подъезде ради очередной съёмки. В подъезде было холодно, Полина мёрзла. Для образа мы решили использовать мой жилет — Полина забрала его у меня, потому что нам обоим понравилась эта идея.
+            </p>
+            <p>
+              Жилет оказался ей очень велик, и на ней фактически был только он. В результате от холода немного страдали мы оба, но кадры на ступенях получились именно такими, какими мы их задумывали.
+            </p>
+          </div>
+
+          <div class="spread-visual reveal reveal-delay-1">
+            <figure class="spread-frame landscape">
+              <img 
+                src="./images/large/AA9A4120.jpg" 
+                alt="Полина на ступенях лестницы в холодном подъезде в большом жилете" 
+                loading="lazy"
+                width="1400" 
+                height="933"
+              >
+            </figure>
+            <div class="plate-caption">
+              <span>Plate N° 17</span>
+              <span>Подъезд: ступени лестницы и большой жилет</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="divider-subtle"></div>
+
+        <!-- ИСТОРИЯ 4: Решётка от вентилятора и графичная тень -->
+        <div class="editorial-spread reverse">
+          <div class="spread-text reveal">
+            <span class="editorial-label">История IV • Теневой узор</span>
+            <h3 class="section-heading" style="font-size: clamp(1.8rem, 3.2vw, 2.6rem);">Решётка вентилятора и тень</h3>
+            <p>
+              Для одного из кадров я решил попробовать необычный способ поиграть с тенями: в ход пошла снятая решётка от бытового вентилятора и жёлтая лампочка на вспышке.
+            </p>
+            <p>
+              Иногда для интересной фотографии нужно не новое оборудование, а простая идея, которая вовремя пришла в голову. И терпеливая модель, которая спокойно относится к вентилятору в кадре.
+            </p>
+          </div>
+
+          <div class="spread-visual reveal reveal-delay-1">
+            <figure class="spread-frame">
+              <img 
+                src="./images/large/AA9A4316.jpg" 
+                alt="Портрет Полины с графичной тенью от решётки вентилятора" 
+                loading="lazy"
+                width="1000" 
+                height="1250"
+              >
+            </figure>
+            <div class="plate-caption">
+              <span>Plate N° 38</span>
+              <span>Тень от решётки вентилятора</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="divider-subtle"></div>
+
+        <!-- ИСТОРИЯ 5: Съёмка со свечой -->
+        <div class="editorial-spread">
+          <div class="spread-text reveal">
+            <span class="editorial-label">История V • Живой огонь</span>
+            <h3 class="section-heading" style="font-size: clamp(1.8rem, 3.2vw, 2.6rem);">Съёмка со свечой</h3>
+            <p>
+              В какой-то момент мы решили попробовать съёмку со свечой. Получились кадры с совсем другим настроением — тихие, тёплые и немного загадочные.
+            </p>
+            <p>
+              Полина позировала со свечой в руках на фоне цветного освещения. Живой трепет пламени и мягкий тёплый свет создали очень выразительную, спокойную атмосферу.
+            </p>
+          </div>
+
+          <div class="spread-visual reveal reveal-delay-1">
+            <figure class="spread-frame">
+              <img 
+                src="./images/large/AA9A4032.jpg" 
+                alt="Полина со свечой на фоне цветного освещения" 
+                loading="lazy"
+                width="1000" 
+                height="1500"
+              >
+            </figure>
+            <div class="plate-caption">
+              <span>Plate N° 06</span>
+              <span>Съёмка со свечой</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------
+         6. РАЗДЕЛ: ПАУЗА И ВОСХИЩЕНИЕ (PAUSE)
+         ------------------------------------------------------------------ -->
+    <section class="section-pause" aria-labelledby="pause-heading">
+      <div class="container">
+        <div class="pause-grid">
+          <div class="pause-visual reveal">
+            <figure class="pause-frame">
+              <img 
+                src="./images/large/AA9A4137.jpg" 
+                alt="Спокойный и естественный портрет Полины" 
+                loading="lazy"
+                width="1400" 
+                height="933"
+              >
+            </figure>
+          </div>
+          <div class="pause-content reveal reveal-delay-1">
+            <span class="editorial-label">Взгляд за пределами объектива</span>
+            <h2 id="pause-heading" class="pause-quote">«Объектив фиксирует выдержку и схемы света. А я вижу любимую девушку, рядом с которой забываешь про любые задания».</h2>
+            <p class="pause-text">
+              Полина красива для меня далеко не только в кадре. Она прекрасна в обычной жизни, когда не пытается позировать, когда просто смеётся или пьёт чай. Фотография умеет сохранить момент, но не передаёт до конца, как сильно я ею восхищаюсь. И то, что мы проходим через все эти творческие поиски вместе, для меня невероятно ценно.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------
+         7. РАЗДЕЛ: АРХИВ СЪЁМОК — 5 ФОТОСЕССИЙ (CURATED GALLERY)
+         ------------------------------------------------------------------ -->
+    <section id="gallery" class="section-gallery" aria-labelledby="gallery-heading">
+      <div class="container">
+
+        <header class="gallery-header reveal">
+          <span class="editorial-label">Архив съёмок</span>
+          <h2 id="gallery-heading" class="section-heading">Все 47 кадров нашего марафона</h2>
+          <p class="section-lead">
+            Полный архив фотографий, разделенный по пяти съёмкам: бокалы, свеча, холодный подъезд, пучки света и красная серия. Нажмите на любой снимок, чтобы открыть его во весь экран.
+          </p>
+
+          <!-- Фильтры категорий по пяти фотосессиям -->
+          <div class="gallery-filters" role="group" aria-label="Фильтр фотосессий">
+            <button class="filter-btn active" data-filter="all">Все кадры (47)</button>
+            <button class="filter-btn" data-filter="glasses">Бокалы (5)</button>
+            <button class="filter-btn" data-filter="candle">Свеча (10)</button>
+            <button class="filter-btn" data-filter="stairwell">Подъезд (20)</button>
+            <button class="filter-btn" data-filter="beams">Пучки света (5)</button>
+            <button class="filter-btn" data-filter="red">Красная серия (7)</button>
+          </div>
+        </header>
+
+        <!-- Сетка галереи: 5 групп рендерятся динамически из js/main.js на основе js/gallery-data.js -->
+        <div id="gallery-grid" class="gallery-grid" aria-live="polite">
+          <!-- Группы формируются в main.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------
+         8. РАЗДЕЛ: ПИСЬМО ПОЛИНЕ (LETTER)
+         ------------------------------------------------------------------ -->
+    <section id="letter" class="section-letter" aria-labelledby="letter-heading">
+      <div class="container-letter">
+
+        <!-- Вводная цитата перед письмом -->
+        <div class="pre-letter-quote reveal">
+          <span class="editorial-label">Слова от автора</span>
+          <blockquote>
+            «Курс по свету закончится, задания будут сданы. А желание придумывать новые съёмки и фотографировать тебя останется со мной навсегда».
+          </blockquote>
+        </div>
+
+        <!-- Тактильная карточка письма -->
+        <article class="letter-card reveal" aria-label="Личное письмо Полине">
+          
+          <header class="letter-header">
+            <span class="letter-monogram" aria-hidden="true">П.</span>
+            <span class="letter-date">Личное послание • Для моей главной модели</span>
+          </header>
+
+          <h2 id="letter-heading" class="letter-salutation">Полина,</h2>
+
+          <div class="letter-body">
+            <p>
+              Я прекрасно знаю, как непросто быть девушкой парня, который увлечён фотографией и проходит курс по свету.
+            </p>
+            <p>
+              Знаю, каково это, когда после утреннего сообщения в 09:00 привычные планы на вечер откладываются. Когда вместо спокойного чая и отдыха мы натягиваем плед между дверями в коридоре, двигаем стол ради бокалов или бегаем по холодному подъезду в два часа ночи в моём большом жилете.
+            </p>
+            <p>
+              Ты имеешь полное право уставать, ворчать и спрашивать, долго ли ещё продлится съёмка. Но то, что ты всё равно соглашаешься участвовать в моих экспериментах, помогаешь готовить пространство и оживляешь даже самые неожиданные задумки — значит для меня очень много.
+            </p>
+            <p>
+              Я хочу развиваться в фотографии, учиться работать со сложным светом и делать сильные кадры. Но этот марафон важен для меня не только оценками за задания, а тем, что мы проживаем его вместе.
+            </p>
+            <p>
+              Курс закончится, задания будут сданы. Но я продолжу фотографировать тебя — просто потому, что ты моя любимая девушка, я тобой любуюсь и хочу сохранять наши моменты.
+            </p>
+            <p>
+              Спасибо тебе за терпение, за помощь и за то, что ты рядом.
+            </p>
+          </div>
+
+          <footer class="letter-closing">
+            <div class="letter-signature">
+              Твой фотограф с закатной лампой и кучей идей
+            </div>
+            <div class="letter-seal">
+              БЕССРОЧНЫЙ КОНТРАКТ • ОПЛАТА: ПОЦЕЛУИ • ПРАВО ЗАКАТЫВАТЬ ГЛАЗА: БЕЗЛИМИТНО
+            </div>
+          </footer>
+
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------
+         9. ФИНАЛЬНЫЙ ЭКРАН (FINALE)
+         ------------------------------------------------------------------ -->
+    <section id="finale" class="section-finale" aria-labelledby="finale-heading">
+      <div class="container">
+        <div class="finale-grid">
+          
+          <!-- Текстовый акцент финала -->
+          <div class="finale-content reveal">
+            <span class="editorial-label">Финал марафона</span>
+            <h2 id="finale-heading" class="finale-heading">Бессрочный контракт.</h2>
+            <p class="finale-quote">
+              «Из оставшихся четырёх фотосессий курса в двух ты участвовать не будешь — заслуженный отдых гарантирован. А когда весь курс окончательно завершится, наш бессрочный контракт останется в силе».
+            </p>
+            <p class="finale-text">
+              Я продолжу фотографировать тебя по собственному желанию, потому что ты моя любимая девушка и главная модель. И далеко не только потому, что красиво получаешься на фотографиях.
+            </p>
+            <a href="#hero" class="hero-scroll-btn" aria-label="Вернуться к началу страницы">
+              <svg class="hero-scroll-icon" viewBox="0 0 24 24" style="transform: rotate(180deg);" aria-hidden="true">
+                <path d="M12 4v16m0 0l-6-6m6 6l6-6"/>
+              </svg>
+              <span>Вернуться к началу</span>
+            </a>
+          </div>
+
+          <!-- Финальный сильный портрет (с красным пледом) -->
+          <div class="finale-visual reveal reveal-delay-1">
+            <figure class="finale-frame">
+              <img 
+                src="./images/large/AA9A4859.jpg" 
+                alt="Финальный портрет Полины на фоне красного пледа" 
+                loading="lazy"
+                width="1200" 
+                height="1800"
+              >
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       FOOTER / КОЛОФОН
+       ====================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-colophon">
+        <span>МОЯ ГЛАВНАЯ МОДЕЛЬ • PRIVATE EDITION</span>
+      </div>
+      <div class="footer-dedication">
+        Для Полины. С любовью, восхищением и пледом в коридоре.
+      </div>
+      <div>
+        <button class="footer-back-to-top" aria-label="Прокрутить страницу вверх">
+          <span>Наверх</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M18 15l-6-6-6 6"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       ПОЛНОЭКРАННАЯ ГАЛЕРЕЯ / LIGHTBOX
+       ====================================================================== -->
+  <div 
+    id="lightbox-modal" 
+    class="lightbox-modal" 
+    role="dialog" 
+    aria-modal="true" 
+    aria-hidden="true" 
+    aria-label="Полноэкранный просмотр фотографии"
+  >
+    <!-- Верхняя панель: счетчик и закрытие -->
+    <div class="lightbox-topbar">
+      <div id="lightbox-counter" class="lightbox-counter" aria-live="polite">01 / 47</div>
+      <button id="lightbox-close-btn" class="lightbox-close-btn" aria-label="Закрыть полноэкранный просмотр (Escape)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Основная сцена с изображением и навигационными кнопками -->
+    <div class="lightbox-stage">
+      <button id="lightbox-prev-btn" class="lightbox-nav-btn prev" aria-label="Предыдущая фотография (Стрелка влево)">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+      </button>
+
+      <div class="lightbox-image-wrap">
+        <img id="lightbox-img" class="lightbox-img" src="" alt="Увеличенная фотография Полины">
+      </div>
+
+      <button id="lightbox-next-btn" class="lightbox-nav-btn next" aria-label="Следующая фотография (Стрелка вправо)">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Нижняя панель: подпись кадра и подсказка для пользователя -->
+    <div class="lightbox-bottombar">
+      <span id="lightbox-caption">Кадр из совместных съёмок</span>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="./js/gallery-data.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
